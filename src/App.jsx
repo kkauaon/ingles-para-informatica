@@ -9,6 +9,14 @@ function App() {
       <header className='header'>Inglês para Informática</header>
       <br />
       <h1 className='titulo'>What are computers?</h1>
+      <div className='author'>
+        <img src="https://th.bing.com/th/id/OIP.6W4g9BwG_SNsSRu8WVfwsAAAAA?pid=ImgDet&w=400&h=400&rs=1" alt="Autor do Post" width="50px" height="50px" />
+        <div>
+          <h4>Kauã</h4>
+          <p>postado em 22/02/2023</p>
+        </div>
+      </div>
+      <br />
       <span><a onClick={() => setIngles(true)} href="#">Inglês</a> | <a onClick={() => setIngles(false)} href="#">Português</a></span>
       <br />
       {ingles ? <article className='artigo'>
@@ -22,6 +30,7 @@ function App() {
         <p>Os computadores são usados de muitas maneiras na vida moderna, desde atividades cotidianas como enviar e-mails e navegar na internet, até coisas mais avançadas como simular processos complexos, projetar novas tecnologias e analisar grandes conjuntos de dados em áreas como medicina, ciência e engenharia.</p>
         <p>Se você está interessado em computadores e quer aprender mais, fique ligado para mais postagens interessantes e divertidas em nosso blog!</p>
       </article>}
+      <br />
     </div>
   )
 }

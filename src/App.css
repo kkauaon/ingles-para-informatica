@@ -15,7 +15,6 @@
   font-family: Gloock, Times, serif;
   letter-spacing: 1.75px;
   width: calc(100% - 30px);
-  position: sticky;
   padding: 15px;
   background-color: rgb(25, 55, 110);
   text-align: center;
@@ -52,6 +51,14 @@
   font-family: Times, serif;
   font-weight: 700;
   color:rgb(25, 55, 110)
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
 }
 
 @media only screen and (max-width: 768px) {
